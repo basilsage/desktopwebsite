@@ -1,5 +1,8 @@
 /* Simply change position: absolute to make icons draggable */
 
+html, body { overflow-x: hidden !important; }
+
+
 .App {
   text-align: center;
   background-image: url("https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg");  
