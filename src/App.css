@@ -1,9 +1,39 @@
 .App {
   text-align: center;
+  background-image: url("https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg");
+  
+}
+
+body {
+  color: white;
+  font-weight: 600;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: gray;
+}
+
+.myFooter {
+  text-align: center;  
+  position: absolute;
+    bottom: 30px;
+    width: 100%;
+    /* color: blueviolet; */
+    /* font-size: 5rem; */
+
+
+
+    /* position: relative !important;
+    font-size: 1.25rem;
+    bottom: 0;
+    margin-bottom: 3rem;
+    text-align: left;
+    width: 66%; */
+  
 }
 
 #mydiv {
   position: absolute;
+  
+
   /* z-index: 9; */
   /* background-color: #f1f1f1; */
   /* border: 1px solid #d3d3d3; */
@@ -28,4 +58,8 @@
 img {
   max-width:50%;
   max-height:50%;
+}
+
+.dragstart a {
+  pointer-events: none;
 }
