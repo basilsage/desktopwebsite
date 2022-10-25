@@ -5,8 +5,7 @@ function App() {
   return (
     <div className="App">
       <div id="mydiv">
-        <div id="mydivheader">Click here to move</div>
-
+        <div id="mydivheader">Clickss here to move</div>
       </div>
 
       

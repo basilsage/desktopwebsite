@@ -4,16 +4,28 @@
 
 #mydiv {
   position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  border: 1px solid #d3d3d3;
-  text-align: center;
+  /* z-index: 9; */
+  /* background-color: #f1f1f1; */
+  /* border: 1px solid #d3d3d3; */
 }
 
 #mydivheader {
   padding: 10px;
   cursor: move;
   z-index: 10;
-  background-color: #2196F3;
-  color: #fff;
+  /* background-color: #2196F3; */
+  /* color: #fff; */
+}
+
+.aboutMe {
+  
+  object-fit: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  /* height: 228px; */
+}
+
+img {
+  max-width:50%;
+  max-height:50%;
 }
