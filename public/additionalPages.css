@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     margin-left: 3rem;
     margin-top: 3rem;
     margin-right: 2rem;
@@ -8,10 +8,13 @@ body {
 
 #backArrow {
     width: 30px;
+    color: black;
     
 }
   
 .websiteCopy {
-    color: white;
-    font-size: 2rem;
+    color: black;
+    font-size: 1.5rem;
+    /* max-width: 60%;
+    min-width: 400px; */
 }
