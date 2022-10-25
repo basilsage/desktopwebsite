@@ -16,27 +16,10 @@ body {
   position: absolute;
     bottom: 30px;
     width: 100%;
-    /* color: blueviolet; */
-    /* font-size: 5rem; */
-
-
-
-    /* position: relative !important;
-    font-size: 1.25rem;
-    bottom: 0;
-    margin-bottom: 3rem;
-    text-align: left;
-    width: 66%; */
-  
 }
 
 #mydiv {
   position: absolute;
-  
-
-  /* z-index: 9; */
-  /* background-color: #f1f1f1; */
-  /* border: 1px solid #d3d3d3; */
 }
 
 #mydivheader {
@@ -60,6 +43,3 @@ img {
   max-height:50%;
 }
 
-.dragstart a {
-  pointer-events: none;
-}

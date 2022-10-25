@@ -30,11 +30,14 @@
         <p>aboutMe.txt</p>
       </div>
     </div>
+    
 
     
     <div class="myFooter">
       <p>dj.satoda@gmail.com | LinkedIn | Calendly</p>
     </div>
+
+
 
     <!-- Script to make mydiv and mydivheader element draggable -->
     
@@ -53,7 +56,7 @@
         if (drag) {
           // alert("drag")
         } else {
-          window.open("https://www.codexworld.com/", "_self");
+          window.open("/aboutMe.html", "_self");
         }
     })    
 
@@ -85,10 +88,6 @@
 
         e = e || window.event;
         e.preventDefault();
-
-        // alert(e.classList)
-        // e.classList.toggle("dragstart")
-        // e.className = e.className + " dragstart";
 
         // calculate the new cursor position:
         pos1 = pos3 - e.clientX;
